@@ -1,0 +1,25 @@
+0- pwd
+cd pipeline
+uv run jupyter notebook
+
+1- docker compose up
+
+2-
+uv run python ingest_data.py \
+  --pg-user=root \
+  --pg-pass=root \
+  --pg-host=localhost \
+  --pg-port=5432 \
+  --pg-db=ny_taxi \
+  --target-table=yellow_taxi_data \
+  --year=2021 \
+  --month=1 \
+  --chunksize=100000
+
+3.a comrpobar uv run pgcli -h localhost -p 5432 -u root -d ny_taxi
+sea haya agregado la dichosa table
+
+3-
+pg admin
+abrir el Puerto y navegador (8085)
+
