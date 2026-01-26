@@ -1,8 +1,5 @@
 # Docker-engineering-Workshop
----
-Docker Workshop
-```
-
+---Docker Workshop---
 ```
 Pregunta 1:
 docker run -it --entrypoint bash python:3.13
@@ -14,11 +11,9 @@ root@2bb99b287ea5:/# pip --version
 pip 25.3 from /usr/local/lib/python3.13/site-packages/pip (python 3.13)
 root@2bb99b287ea5:/# 
 ```
-
 ```
 Pregunta 2: db:5432  
 ```
-
 ```
 Pregunta 3: Viajes cortos (Distancia ≤ 1 milla)
 Esta consulta cuenta los viajes realizados en noviembre de 2025 cuya distancia fue menor o igual a 1 milla.
@@ -31,7 +26,7 @@ WHERE
     lpep_pickup_datetime >= '2025-11-01 00:00:00' 
     AND lpep_pickup_datetime < '2025-12-01 00:00:00'
     AND trip_distance <= 1;
-
+```
 ```
 Pregunta 4: Día con el viaje más largo
 Buscar el día con la distancia máxima, filtrando errores de datos (viajes de más de 100 millas).
