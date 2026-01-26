@@ -2,6 +2,7 @@
 ---
 Docker Workshop
 ```
+
 ```
 Pregunta 1:
 docker run -it --entrypoint bash python:3.13
@@ -13,9 +14,11 @@ root@2bb99b287ea5:/# pip --version
 pip 25.3 from /usr/local/lib/python3.13/site-packages/pip (python 3.13)
 root@2bb99b287ea5:/# 
 ```
+
 ```
 Pregunta 2: db:5432  
 ```
+
 ```
 Pregunta 3: Viajes cortos (Distancia ≤ 1 milla)
 Esta consulta cuenta los viajes realizados en noviembre de 2025 cuya distancia fue menor o igual a 1 milla.
@@ -92,7 +95,7 @@ LIMIT 1;
 Pregunta 7: terraform init, terraform apply -auto-approve, terraform destroy 
 ```
 
-RESUME:
+# RESUME:
 p1) The version of pip in the python:3.13 image is 24.3.1. 
 p2) db:5432 
 p3) 8007
