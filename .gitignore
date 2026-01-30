@@ -1,5 +1,4 @@
 *.parquet
-*/workspaces/Docker-engineering-Workshop/02-workflow_orchestration/ny_taxi_postgres_data/yellow_tripdata_2020-12.csv
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -207,3 +206,4 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+02-workflow_orchestration/ny_taxi_postgres_data/yellow_tripdata_2020-12.csv
