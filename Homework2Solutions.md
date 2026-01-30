@@ -1,18 +1,21 @@
+```
 Data Engineering Zoomcamp - Module 2 Homework
+```
+```
 📝 Question 1: Uncompressed File Size
 Answer: 128.3 MiB
-'''
+```
 !gunzip yellow_tripdata_2020-12.csv.gz
 !ls -lh yellow_tripdata_2020-12.csv
-'''
+```
 📝 Question 2: Rendered Value
 Answer: green_tripdata_2020-04.csv
-'''
+```
 📝 Question 3: Yellow Taxi March 2021 Rows
 Answer: 1,925,152
-'''
+```
 💻 Data Processing Script (Extraction & Helper)
-'''
+```
 import pandas as pd
 Combinaciones: Homework + todo Yellow 2020
 combinations = [
@@ -53,10 +56,12 @@ if item["taxi"] == filtro_taxi and item["year"] == filtro_año
 )
 print(f"📊 Total acumulado para {filtro_taxi.upper()} en {filtro_año}: {total:,} filas.")
 return total
-'''
+```
+```
 📝 Question 4: Green Taxi 2020 Total Rows
 Answer: 1,734,051
-'''
+```
+```
 def total_rows_2020_green(data_string):
 import re
 # Buscamos todos los números que están al final de la frase "filas"
@@ -80,10 +85,12 @@ Taxi green, Año 2020, Mes 11: 88605 filas
 Taxi green, Año 2020, Mes 12: 83130 filas
 """
 print(f"Total: {total_rows_2020_green(results)}")
-'''
+```
+```
 📝 Question 5: Yellow Taxi 2020 Total Rows
 Answer: 24,648,499
-'''
+```
+```
 def total_rows_2020_yellow(data_string):
 import re
 # Buscamos todos los números que están al final de la frase "filas"
@@ -107,6 +114,8 @@ Taxi yellow, Año 2020, Mes 11: 1508985 filas
 Taxi yellow, Año 2020, Mes 12: 1461897 filas
 """
 print(f"Total: {total_rows_2020_yellow(results)}")
-'''
+```
+```
 📝 Question 6: Scheduling Timezone
 Answer: Add a timezone property set to UTC to the schedule trigger
+```
