@@ -65,6 +65,7 @@ return total
 Answer: 1,734,051
 ```
 ```
+```
 def total_rows_2020_green(data_string):
 import re
 # Buscamos todos los números que están al final de la frase "filas"
@@ -90,8 +91,10 @@ Taxi green, Año 2020, Mes 12: 83130 filas
 print(f"Total: {total_rows_2020_green(results)}")
 ```
 ```
+```
 📝 Question 5: Yellow Taxi 2020 Total Rows
 Answer: 24,648,499
+```
 ```
 ```
 def total_rows_2020_yellow(data_string):
@@ -117,6 +120,7 @@ Taxi yellow, Año 2020, Mes 11: 1508985 filas
 Taxi yellow, Año 2020, Mes 12: 1461897 filas
 """
 print(f"Total: {total_rows_2020_yellow(results)}")
+```
 ```
 ```
 📝 Question 6: Scheduling Timezone
