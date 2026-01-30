@@ -16,6 +16,7 @@ Answer: 1,925,152
 ```
 💻 Data Processing Script (Extraction & Helper)
 ```
+```
 import pandas as pd
 Combinaciones: Homework + todo Yellow 2020
 combinations = [
@@ -56,6 +57,8 @@ if item["taxi"] == filtro_taxi and item["year"] == filtro_año
 )
 print(f"📊 Total acumulado para {filtro_taxi.upper()} en {filtro_año}: {total:,} filas.")
 return total
+```
+
 ```
 ```
 📝 Question 4: Green Taxi 2020 Total Rows
