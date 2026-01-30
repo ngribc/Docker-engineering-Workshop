@@ -140,6 +140,8 @@ print(f"Total: {total_rows_2020_yellow(results)}")
 
 
 ```
+```
 📝 Question 6: Scheduling Timezone
 Answer: Add a timezone property set to UTC to the schedule trigger
+```
 ```
