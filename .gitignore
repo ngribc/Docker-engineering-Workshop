@@ -1,5 +1,5 @@
 *.parquet
-
+*yellow_tripdata_2020-12.csv
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
