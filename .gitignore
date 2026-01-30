@@ -1,5 +1,5 @@
 *.parquet
-*.csv
+*/workspaces/Docker-engineering-Workshop/02-workflow_orchestration/ny_taxi_postgres_data/yellow_tripdata_2020-12.csv
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
