@@ -1,15 +1,16 @@
 Question 1: Within the execution for Yellow Taxi data for the year 2020 and month 12: what is the uncompressed file size (i.e. the output file yellow_tripdata_2020-12.csv of the extract task)?
 128.3 MiB
-
+'''
 !gunzip yellow_tripdata_2020-12.csv.gz
 !ls -lh yellow_tripdata_2020-12.csv
+'''
 
-
+'''
 Question 2. What is the rendered value of the variable file when the inputs taxi is set to green, year is set to 2020, and month is set to 04 during execution? (1 point)
+green_tripdata_2020-04.csv'
+'''
 
-green_tripdata_2020-04.csv
-
-
+'''
 import pandas as pd
 
 # Combinaciones: Homework + todo Yellow 2020
@@ -60,12 +61,14 @@ def calcular_total_filas(lista_resultados, filtro_taxi="yellow", filtro_año=202
 
 # Ejemplo de uso con los datos que ya procesaste:
 # total_2020 = calcular_total_filas(results, "yellow", 2020)
+'''
 Taxi yellow, Año 2021, Mes 3: 1925152 filas
 
-
-
+'''
 How many rows are there for the Green Taxi data for all CSV files in the year 2020?
+'''
 
+'''
 def total_rows_2020_green(data_string):
     import re
     # Buscamos todos los números que están al final de la frase "filas"
@@ -92,9 +95,11 @@ Taxi green, Año 2020, Mes 12: 83130 filas
 """
 
 print(f"Total: {total_rows_2020_green(results)}")
+'''
+
 Total: 1734051
 
-
+'''
 def total_rows_2020_yellow(data_string):
     import re
     # Buscamos todos los números que están al final de la frase "filas"
@@ -121,6 +126,7 @@ Taxi yellow, Año 2020, Mes 12: 1461897 filas
 """
 
 print(f"Total: {total_rows_2020_yellow(results)}")
+'''
 
 Total: 24648499
 
