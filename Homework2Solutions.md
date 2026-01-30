@@ -1,21 +1,31 @@
 ```
 Data Engineering Zoomcamp - Module 2 Homework
 ```
+
 ```
 📝 Question 1: Uncompressed File Size
 Answer: 128.3 MiB
 ```
+
+```
 !gunzip yellow_tripdata_2020-12.csv.gz
 !ls -lh yellow_tripdata_2020-12.csv
+```
+
 ```
 📝 Question 2: Rendered Value
 Answer: green_tripdata_2020-04.csv
 ```
+
+```
 📝 Question 3: Yellow Taxi March 2021 Rows
 Answer: 1,925,152
 ```
+
+```
 💻 Data Processing Script (Extraction & Helper)
 ```
+
 ```
 import pandas as pd
 Combinaciones: Homework + todo Yellow 2020
@@ -65,6 +75,7 @@ return total
 Answer: 1,734,051
 ```
 ```
+
 ```
 def total_rows_2020_green(data_string):
 import re
@@ -122,7 +133,10 @@ Taxi yellow, Año 2020, Mes 12: 1461897 filas
 print(f"Total: {total_rows_2020_yellow(results)}")
 ```
 ```
+
+```
 ```
 📝 Question 6: Scheduling Timezone
 Answer: Add a timezone property set to UTC to the schedule trigger
+```
 ```
