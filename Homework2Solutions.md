@@ -69,12 +69,14 @@ print(f"📊 Total acumulado para {filtro_taxi.upper()} en {filtro_año}: {total
 return total
 ```
 
-```
+
+
 ```
 📝 Question 4: Green Taxi 2020 Total Rows
 Answer: 1,734,051
 ```
-```
+
+
 
 ```
 def total_rows_2020_green(data_string):
@@ -101,12 +103,14 @@ Taxi green, Año 2020, Mes 12: 83130 filas
 """
 print(f"Total: {total_rows_2020_green(results)}")
 ```
-```
+
+
 ```
 📝 Question 5: Yellow Taxi 2020 Total Rows
 Answer: 24,648,499
 ```
-```
+
+
 ```
 def total_rows_2020_yellow(data_string):
 import re
@@ -134,9 +138,8 @@ print(f"Total: {total_rows_2020_yellow(results)}")
 ```
 ```
 
-```
+
 ```
 📝 Question 6: Scheduling Timezone
 Answer: Add a timezone property set to UTC to the schedule trigger
-```
 ```
